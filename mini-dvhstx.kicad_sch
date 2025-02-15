@@ -12011,7 +12011,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "RST"
 			(at 144.78 160.02 0)
 			(effects
 				(font

@@ -6,6 +6,8 @@ The idea of this board is to provide a minimal board in a similar form factor to
 
 ![image_720](https://github.com/user-attachments/assets/a6ff67bf-fb8c-44f8-9487-60a8524ab704)
 
+My [DVI for HSTX](https://github.com/MichaelBell/dvhstx) library should be ideal for use with this board.
+
 ## Pinout
 
 The left side is the same as the Pico, the right side is different (but somewhat related).

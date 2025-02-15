@@ -282,7 +282,7 @@
 				)
 			)
 		)
-		(property "JLC" "C97521"
+		(property "JLC" "C571260"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6278,7 +6278,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 0 -1.05 360)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "254fed00-0022-4a7e-a1a8-acc18250bbbe")
@@ -6290,7 +6290,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 360)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "dff9076f-9e72-44e0-aa23-2882555942fd")
 			(effects
@@ -6425,7 +6425,7 @@
 			(uuid "fb898ab4-0019-4e0d-ad21-ade8bf7bf445")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 360)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "68bb89aa-29b1-4398-a18d-449bbc6a85bb")
 			(effects

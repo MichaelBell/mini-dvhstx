@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "ead8f88d-5617-4ec7-a65f-e9d77c3564d6")
 	(paper "A3")
+	(title_block
+		(title "Mini DV HSTX")
+		(date "2025-02-15")
+		(rev "v1.0")
+		(company "Team Rebellion")
+	)
 	(lib_symbols
 		(symbol "Connector:HDMI_A"
 			(exclude_from_sim no)

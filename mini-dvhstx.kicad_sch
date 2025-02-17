@@ -15,8 +15,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -6.35 26.67 0)
+			(property "Reference" "J2"
+				(at 12.7 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -24,14 +24,14 @@
 				)
 			)
 			(property "Value" "HDMI_A"
-				(at 10.16 26.67 0)
+				(at 15.24 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "components:HDMI-SMD_KH-HDMI-19P-CU"
 				(at 0.635 0 0)
 				(effects
 					(font
@@ -51,6 +51,15 @@
 			)
 			(property "Description" "HDMI type A connector"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLC" "C2962407"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -385,6 +394,78 @@
 					)
 				)
 				(pin passive line
+					(at 7.62 -27.94 90)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -27.94 90)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -27.94 90)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -27.94 90)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -10.16 17.78 0)
 					(length 2.54)
 					(name "D2-"
@@ -503,24 +584,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -27.94 90)
-					(length 2.54)
-					(name "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5624,6 +5687,12 @@
 		(uuid "9f7aa768-a405-43ef-8f91-a91e4d040329")
 	)
 	(junction
+		(at 73.66 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a60b5537-25c2-40e8-8673-5485e334b48c")
+	)
+	(junction
 		(at 152.4 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6031,6 +6100,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 107.95) (xy 73.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b20991-a4c4-433c-b793-a96f0f704b5b")
+	)
+	(wire
+		(pts
 			(xy 325.12 118.11) (xy 325.12 129.54)
 		)
 		(stroke
@@ -6251,7 +6330,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 105.41) (xy 73.66 123.19)
+			(xy 73.66 105.41) (xy 73.66 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6538,6 +6617,16 @@
 			(type default)
 		)
 		(uuid "4d17693b-29c9-4006-9f70-2549470e23cd")
+	)
+	(wire
+		(pts
+			(xy 87.63 107.95) (xy 73.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3958eb-2cd7-4090-94f3-110b86a0db11")
 	)
 	(wire
 		(pts
@@ -7641,6 +7730,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 119.38) (xy 87.63 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19439ae-f483-42e1-b295-b24124e54188")
+	)
+	(wire
+		(pts
 			(xy 213.36 252.73) (xy 222.25 252.73)
 		)
 		(stroke
@@ -7908,6 +8007,16 @@
 			(type default)
 		)
 		(uuid "d0da5a9d-106a-4772-ad28-12e565a784c0")
+	)
+	(wire
+		(pts
+			(xy 87.63 111.76) (xy 87.63 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1412b1c-8fec-4c96-bfb9-7a285d20a061")
 	)
 	(wire
 		(pts
@@ -9425,7 +9534,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C97521"
+		(property "JLC" "C571260"
 			(at 73.66 135.89 0)
 			(effects
 				(font
@@ -13004,6 +13113,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 87.63 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a14f2390-7eee-4f1b-9314-fcda56979105")
+		(property "Reference" "#PWR010"
+			(at 87.63 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae22b5b1-ab39-424b-acc8-ded283adec5d")
+		)
+		(instances
+			(project "mini-dvhstx"
+				(path "/ead8f88d-5617-4ec7-a65f-e9d77c3564d6"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 43.18 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13543,7 +13718,7 @@
 		(pin "3"
 			(uuid "0701c067-5da6-494f-b39a-367e5e4cc443")
 		)
-		(pin "SH"
+		(pin "20"
 			(uuid "b5abb39e-4782-4b8c-a93d-3c938daa5a6f")
 		)
 		(pin "1"
@@ -13560,6 +13735,15 @@
 		)
 		(pin "8"
 			(uuid "933d9a18-3ac0-48bd-bd1f-51a7b2a2ca41")
+		)
+		(pin "23"
+			(uuid "64d41967-8e14-4ace-aae8-e9a0552fccd6")
+		)
+		(pin "21"
+			(uuid "2948adf3-35ee-4852-bfec-96f5f8f39334")
+		)
+		(pin "22"
+			(uuid "448c696c-7461-4aed-b7c7-2437f6f6cd21")
 		)
 		(instances
 			(project ""
@@ -13950,6 +14134,75 @@
 			(project "mini-dvhstx"
 				(path "/ead8f88d-5617-4ec7-a65f-e9d77c3564d6"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd82cb58-62f8-4bca-be6d-b2481aa65551")
+		(property "Reference" "C2"
+			(at 90.551 114.4016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 90.551 116.713 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 88.5952 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2f154bb-0a40-4281-bd4a-9a444c3fb4aa")
+		)
+		(pin "2"
+			(uuid "3c523a33-cdb7-4e17-832b-3eed39fe8807")
+		)
+		(instances
+			(project "mini-dvhstx"
+				(path "/ead8f88d-5617-4ec7-a65f-e9d77c3564d6"
+					(reference "C2")
 					(unit 1)
 				)
 			)

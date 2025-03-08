@@ -593,6 +593,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x13"
 			(pin_names
 				(offset 1.016) hide)
@@ -5525,6 +5627,12 @@
 		(uuid "28b6c651-c5e7-4c41-8660-c69d393a04ac")
 	)
 	(junction
+		(at 143.51 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b7d1d23-94c0-4dba-a104-cc7ee0c66c23")
+	)
+	(junction
 		(at 196.85 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6407,6 +6515,16 @@
 			(type default)
 		)
 		(uuid "3980c857-b767-4648-8595-58458cdf7b5d")
+	)
+	(wire
+		(pts
+			(xy 130.81 60.96) (xy 143.51 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f894d1-dbb3-4750-9b3b-eb4382b6a2e0")
 	)
 	(wire
 		(pts
@@ -10999,7 +11117,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RP2350A"
+			(at 198.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C42411118"
 			(at 198.12 144.78 0)
 			(effects
 				(font
@@ -12479,7 +12606,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "13p"
 			(at 71.882 242.951 0)
 			(effects
 				(font
@@ -12507,6 +12634,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.025 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C48936"
 			(at 73.025 240.03 0)
 			(effects
 				(font
@@ -13544,6 +13680,73 @@
 			(project "mini-dvhstx"
 				(path "/ead8f88d-5617-4ec7-a65f-e9d77c3564d6"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 130.81 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3e42646-876c-4da2-b007-841a405edd53")
+		(property "Reference" "TP1"
+			(at 133.35 56.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 133.35 58.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 135.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f0c5759-b3f1-45c7-b226-0a4d7a9dc6dd")
+		)
+		(instances
+			(project ""
+				(path "/ead8f88d-5617-4ec7-a65f-e9d77c3564d6"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -15336,7 +15539,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "13p"
 			(at 71.882 232.791 0)
 			(effects
 				(font
@@ -15364,6 +15567,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.025 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C48936"
 			(at 73.025 229.87 0)
 			(effects
 				(font
